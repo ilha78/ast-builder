@@ -19,10 +19,9 @@ struct Args {
 ///
 /// Main function logic:
 /// - Processes command line args
-/// - Initialises an Image
 /// - Tokenise the logo code
 /// - Parse the tokens into an AST
-/// - print the parsed ast out
+/// - Print debug the parsed ast to stdout
 /// 
 fn main() -> Result<(), ()> {
     let args: Args = Args::parse();
