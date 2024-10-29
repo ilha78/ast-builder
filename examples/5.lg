@@ -1,0 +1,28 @@
+PENDOWN
+
+MAKE "variableName "name
+
+TO Foo :variableName
+	LEFT :name
+END
+
+MAKE "variableName "diffName
+
+Foo "20
+
+MAKE "variableName "name
+
+TO Bar "literal :variableName YCOR + "31 "5
+  SETPENCOLOR "1
+	FORWARD :literal
+  SETPENCOLOR "5
+  BACK "20
+	FORWARD :name
+  SETPENCOLOR "3
+	FORWARD :0
+  SETPENCOLOR "4
+	FORWARD :15
+  PENUP
+END
+
+Bar "10 "15 "20 "25

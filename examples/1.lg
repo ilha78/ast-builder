@@ -1,0 +1,16 @@
+PENDOWN
+SETPENCOLOR "1
+FORWARD "22
+PENUP
+TURN "120
+SETPENCOLOR "2
+
+
+// ignore newlines and comment when lexing, parsing
+
+
+FORWARD "31
+PENDOWN
+TURN "120
+SETPENCOLOR "6
+FORWARD "45

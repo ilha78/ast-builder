@@ -1,0 +1,1 @@
+/home/ilha/projects/ast-builder/target/debug/rslogo: /home/ilha/projects/ast-builder/src/ast.rs /home/ilha/projects/ast-builder/src/lexer.rs /home/ilha/projects/ast-builder/src/main.rs /home/ilha/projects/ast-builder/src/parser.rs
