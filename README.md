@@ -1,6 +1,6 @@
 # ast-builder: Lexer and Parser for Logo
 
-This project was written in Rust.
+This project was written in Rust to parse Logo code into an Abstract Syntax Tree.
 
 ## Setup
 
